@@ -88,6 +88,10 @@ table{
   margin-left: 20px;
 }
 
+li{
+  text-decoration: none;
+}
+
 
 
 /* ---------------------------- */
@@ -196,6 +200,14 @@ table{
   text-decoration: none;
 }
 
+#rideralert-section a{
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
 
 
 
