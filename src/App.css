@@ -2,6 +2,7 @@
   text-align: center;
   background-color: white;
   min-height: 100vh;
+  
   max-width: 375px;
   display: flex;
   flex-direction: column;
@@ -11,34 +12,12 @@
   color: black;
 }
 
-.titleDiv {
-  border-width: 1px 0px 1px 0px;
-  border-color: #ffffff #ffffff #ffffff #ffffff;
-  border-style: solid solid solid solid;
-  padding: 10px;
-  display: block;
-  background-color: #FFFFFF;
-  text-align: center;
-  font-family: verdana;
-  font-weight: bold;
-  font-size: 18pt;
-}
 
 
-.heading{
-  display: flex;
-  justify-content:space-between;
-  align-items:center;
-  width:50vw;
 
-}
-
-.heading img {
-  height: min-content;
-}
-
-
+/* ------------------- */
 /* Global Styles */
+/* ------------------- */
 
 table{
   display: table;
@@ -65,7 +44,7 @@ table{
   width: 260px;
   height: 50px;
 
-  background: linear-gradient(-45deg, #FAE386, rgba(255, 255, 255, 0)) ;
+  background: linear-gradient(-45deg, #FAE386, rgba(255,255,255,0.25)) ;
   text-align: center;
   vertical-align: middle;
   border-radius: 10px;
@@ -74,6 +53,42 @@ table{
   box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
   -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
+
+/* ------------ */
+/* ALERT BAR */
+/* ------------ */
+
+
+
+
+
+
+
+/* ------------ */
+/* TITLE  */
+/* ------------ */
+
+.titleDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-width: 1px 0px 1px 0px;
+  border-color: #ffffff #ffffff #ffffff #ffffff;
+  border-style: solid solid solid solid;
+  padding: 10px;
+
+  background-color: #FFFFFF;
+  text-align: center;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 18pt;
+}
+.titleDiv span{
+  margin-left: 20px;
+}
+
+
 
 /* ---------------------------- */
 /* LOCATOR SECTION STYLES */
@@ -93,12 +108,12 @@ table{
   width: 82px;
   height: 75px;
 
-  background-color: #143E7C;
+  /* background-color: #143E7C; */
   background: linear-gradient(-45deg, #143E7C, rgba(255,255,255,0.25));
   color: white;
   border-radius: 10px;
   box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-  -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  -5px -5px 12px 0 rgba(255, 255, 255, 0.3);
 }
 
 

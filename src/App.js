@@ -9,23 +9,27 @@ function App() {
         <img src="/images/gopass2-300x50.png"/>
       </div>
 
-      <table  className="stat" align="center" cellspacing="2" style={{"width": "320px"}}> 		
-        <tbody>
-          <tr>			
-            <td>
-              <a href="featuredRiderAlerts.asp">
-                <img src="images/riderAlert.gif" align="left" border="0" hspace="2"/>Click here
-              </a> for TRE Rider Alert 5/17 7:48p. <font size="1">(Posted  today at 7:48 PM)</font>
-                <br/>			
-            </td>		
-          </tr>
-        </tbody>
-      </table>
+      <section className="stat">
+        <table  align="center" cellspacing="2" style={{"width": "320px"}}> 		
+          <tbody>
+            <tr>			
+              <td>
+                <a href="featuredRiderAlerts.asp">
+                  <img src="images/riderAlert.gif" align="left" border="0" hspace="2"/>Click here
+                </a> for TRE Rider Alert 5/17 7:48p. <font size="1">(Posted  today at 7:48 PM)</font>
+                  <br/>			
+              </td>		
+            </tr>
+          </tbody>
+        </table>
+      </section>
       
-      <span class="titleDiv">
-        <img src="/images/dartChevronLogo.gif" alt="DART logo" style={{"vertical-align":"middle"}}/>   
-        Where's my...
-      </span>
+      
+      <div className="titleDiv">
+        <img src="/images/dartChevronLogo.gif" alt="DART logo" />   
+          
+        <span>Where's my...</span>
+      </div>
 
 
       {/* this routes to locator */}
